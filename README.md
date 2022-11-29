@@ -9,9 +9,9 @@ More information can be found at the [official site](http://codeigniter.com).
 
 To install this app:
 1. Clone it to your working directory i.e 
-       **git clone git@github.com:Kenneth-Kipchumba/Prank.git**
+       **git clone (git@github.com:Kenneth-Kipchumba/Prank.git)**
 2. then run
-       **composer install and composer update to pull in any new updates**
+       **composer install** and optionally **composer update** to pull in any new updates**
 
 
 When updating, you may want to check the release notes to see if there are any changes you might need to apply
@@ -20,13 +20,12 @@ to your `app` folder. The affected files can be copied or merged from
 
 ## Setup
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+Copy `env` to `.env` and tailor it to suit your app, specifically the baseURL and the database settings.
 
 ## Important Change with index.php
 
-Configure your web server to "point" to the project's *public* folder, and
-not to its root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, which will expose the app's  logic.
+Configure your web server to "point" to the project's **public** folder, and
+**not** to its root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, which will expose the app's  logic.
 
 **Please read the user guide for a better explanation of how CodeIgniter 4 works!**
 
@@ -49,4 +48,4 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 This software is free and open source and the author holds no liability should the software be misused.
 
-The intention of writing this software was for learning about web application vulnerabilities. More information concerning software sercurity can be found from OWASP (https://owasp.org/www-project-top-ten/)
+The intention of writing this software was for learning about web application vulnerabilities. More information concerning software sercurity can be found from [OWASP](https://owasp.org/www-project-top-ten/)
